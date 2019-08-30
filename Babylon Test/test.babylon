@@ -1,4 +1,4 @@
-{"producer":{"name":"Blender","version":"2.80 (sub 75)","exporter_version":"6.2.0","file":"test2_8.babylon"},
+{"producer":{"name":"Blender","version":"2.80 (sub 75)","exporter_version":"6.2.0","file":"test.babylon"},
 "autoClear":true,"clearColor":[0.0025,0.0046,0.0087],"gravity":[0,-9.81,0],
 "materials":[{"name":"Main_Cube_baked","id":"Main_Cube_baked","customType":"BABYLON.PBRMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"environmentIntensity":0,"albedo":[0.8,0.0428,0],"reflectivity":[0.5,0.5,0.5],"roughness":0.5,"alpha":1,"transparencyMode":0,"alphaCutOff":0.4,"metallic":0},
 {"name":"Main_Left","id":"Main_Left","customType":"BABYLON.PBRMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"environmentIntensity":0,"albedo":[0,0.8,0.429],"reflectivity":[0.5,0.5,0.5],"roughness":0.5,"alpha":1,"transparencyMode":0,"alphaCutOff":0.4,"metallic":0},
@@ -12,9 +12,9 @@
 "reflectivityTexture":{"name":"test_None_OcclusionRoughnessMetallic.png","level":1,"hasAlpha":true,"coordinatesMode":0,"uOffset":0,"vOffset":0,"uScale":1,"vScale":1,"uAng":0,"vAng":0,"wAng":0,"wrapU":1,"wrapV":1,"coordinatesIndex":0}, 
 "bumpTexture":{"name":"test_None_Normal.png","level":1,"hasAlpha":true,"coordinatesMode":0,"uOffset":0,"vOffset":0,"uScale":1,"vScale":1,"uAng":0,"vAng":0,"wAng":0,"wrapU":1,"wrapV":1,"coordinatesIndex":0}, 
 "metallicTexture":{"name":"test_None_OcclusionRoughnessMetallic.png","level":1,"hasAlpha":true,"coordinatesMode":0,"uOffset":0,"vOffset":0,"uScale":1,"vScale":1,"uAng":0,"vAng":0,"wAng":0,"wrapU":1,"wrapV":1,"coordinatesIndex":0},"useMetallnessFromMetallicTextureBlue":true,"useRoughnessFromMetallicTextureGreen":true,"useAmbientOcclusionFromMetallicTextureRed":false}],
-"multiMaterials":[{"name":"test2_8.Multimaterial#0","id":"test2_8.Multimaterial#0","materials":["Main_Cube_baked","Main_Left","Main_All","Main_Back"]},{"name":"test2_8.Multimaterial#1","id":"test2_8.Multimaterial#1","materials":["Lamp_baked","Lamp_mat"]}],
+"multiMaterials":[{"name":"test.Multimaterial#0","id":"test.Multimaterial#0","materials":["Main_Cube_baked","Main_Left","Main_All","Main_Back"]},{"name":"test.Multimaterial#1","id":"test.Multimaterial#1","materials":["Lamp_baked","Lamp_mat"]}],
 "skeletons":[],
-"meshes":[{"name":"Main_Cube","id":"Main_Cube","materialId":"test2_8.Multimaterial#0","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[2.6703,2.6703,2.6703],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
+"meshes":[{"name":"Main_Cube","id":"Main_Cube","materialId":"test.Multimaterial#0","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[2.6703,2.6703,2.6703],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
 ,"positions":[0.7581,1.8356,-0.798,0.7581,0.1208,0.7015,0.7581,0.1208,-0.798,0.7581,1.8356,0.7015,-0.7581,0.1208,-0.798,-0.7581,1.8356,0.7015,-0.7581,1.8356,-0.798,-0.7581,0.1208,0.7015,-0.8623,1.9564,-0.798,-0.8623,0,0.798,-0.8623,0,-0.798,-0.8623,1.9564,0.798,0.8623,0,0.798,-0.8623,0,0.798,0.8623,1.9564,0.798,0.8623,0,-0.798,0.8623,0,0.798
 ,-0.7581,1.8356,-0.798,0.7581,1.8356,0.7015,0.7581,1.8356,-0.798,0.8623,0,0.798,-0.8623,0,-0.798,-0.8623,0,0.798,-0.8623,1.9564,0.798,0.8623,1.9564,-0.798,0.8623,1.9564,0.798,-0.7581,1.8356,-0.798,-0.8623,0,-0.798,-0.7581,0.1208,-0.798,0.7581,0.1208,-0.798,0.8623,1.9564,-0.798,0.7581,1.8356,-0.798,-0.7581,0.1208,-0.798,0.8623,0,-0.798
 ,0.7581,0.1208,-0.798,0.7581,1.8356,-0.798,-0.8623,1.9564,-0.798,-0.7581,1.8356,-0.798,0.7581,0.1208,-0.798,-0.7581,0.1208,0.7015,-0.7581,0.1208,-0.798,-0.8623,1.9564,0.798,0.8623,1.9564,0.798,0.8623,1.9564,-0.798,-0.7581,1.8356,-0.798,-0.7581,1.8356,0.7015,0.7581,1.8356,0.7015,0.8623,0,0.798,0.8623,0,-0.798,-0.8623,0,-0.798,-0.8623,1.9564,0.798
@@ -32,7 +32,7 @@
 ,12,14,43,15,44,45,46,47,48,49,50,51,24,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72]
 ,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":4,"indexStart":0,"indexCount":6},{"materialIndex":1,"verticesStart":4,"verticesCount":4,"indexStart":6,"indexCount":6},{"materialIndex":2,"verticesStart":8,"verticesCount":59,"indexStart":12,"indexCount":66},{"materialIndex":3,"verticesStart":67,"verticesCount":6,"indexStart":78,"indexCount":6}]
 ,"instances":[]}
-,{"name":"Lamp","id":"Lamp","materialId":"test2_8.Multimaterial#1","billboardMode":0,"position":[0,4.9015,0],"rotation":[0,-3.1416,0],"scaling":[-1,-0.1057,-0.6267],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
+,{"name":"Lamp","id":"Lamp","materialId":"test.Multimaterial#1","billboardMode":0,"position":[0,4.9015,0],"rotation":[0,-3.1416,0],"scaling":[-1,-0.1057,-0.6267],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
 ,"positions":[-0.9149,1.1019,0.9149,0.9149,1.1019,-0.9149,0.9149,1.1019,0.9149,-0.9149,1.1019,-0.9149,-1,2,-1,-1,0,1,-1,0,-1,-1,2,1,1,0,1,-1,0,1,1,2,1,1,0,-1,1,0,1,1,2,-1,-1,0,-1,1,0,-1,1,0,1
 ,-1,0,-1,-1,0,1,-1,2,1,0.9149,2,0.9149,1,2,1,0.9149,2,0.9149,0.9149,1.1019,-0.9149,0.9149,2,-0.9149,1,2,-1,0.9149,2,-0.9149,-1,2,-1,-0.9149,2,0.9149,-1,2,1,-1,2,-1,0.9149,2,-0.9149,-0.9149,2,-0.9149,-0.9149,2,-0.9149
 ,-0.9149,1.1019,0.9149,-0.9149,2,0.9149,0.9149,2,-0.9149,-0.9149,1.1019,-0.9149,-0.9149,2,-0.9149,-0.9149,2,0.9149,0.9149,1.1019,0.9149,0.9149,2,0.9149,-1,2,1,1,2,1,1,2,-1,-1,2,-1,-1,0,-1,1,0,1,1,0,-1,-1,0,-1,-1,2,1
@@ -225,6 +225,6 @@
 ],
 "morphTargetManagers":[],
 "cameras":[],
-"lights":[],
-"shadowGenerators":[]
+"lights":[{"name":"Sun","id":"Sun","type":1,"position":[0,4.7,0],"direction":[0,-1,0],"intensityMode":3,"intensity":1.3,"diffuse":[1,1,1],"specular":[1,1,1],"radius":0.125},{"name":"Point","id":"Point","type":0,"position":[0,4,0],"range":40,"intensityMode":1,"intensity":60,"diffuse":[1,1,1],"specular":[1,1,1],"radius":0.25}],
+"shadowGenerators":[{"mapSize":512,"lightId":"Sun","bias":0.00005,"darkness":0.02,"useBlurExponentialShadowMap":true,"blurScale":2,"blurBoxOffset":20,"renderList":["Lamp","Sphere"]}]
 }
